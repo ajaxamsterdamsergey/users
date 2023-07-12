@@ -1,0 +1,25 @@
+@import '../../scss/main.scss';
+.btn {
+  height: 34px;
+  background-color: $primary;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  color: $black-87;
+  cursor: pointer;
+  font-size: 16px;
+  @include body-16;
+
+  &:hover {
+    background-color: $btnHover;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  }
+
+  &:active {
+    background-color: $activ;
+  }
+}

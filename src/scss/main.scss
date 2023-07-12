@@ -1,0 +1,23 @@
+$content-color: white;
+$black-87:rgba(0, 0, 0, 0.87);
+$background: #F8F8F8;
+$primary:#F4E041;
+$btnHover:#FFE302;
+$activ:#B4B4B4;
+
+@mixin body-16 {
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+
+}
+@mixin  H1 {
+font-family: Nunito;
+font-size: 40px;
+font-style: normal;
+font-weight: bold;
+line-height: 40px;
+}
+  
